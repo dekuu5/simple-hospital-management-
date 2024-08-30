@@ -1,0 +1,98 @@
+/* General styles */
+* {
+    font-family: 'JannaLTRegular', sans-serif;
+    box-sizing: border-box;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo section */
+.logo {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.logo h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #00a9b0;
+}
+
+/* Booking form styles */
+.book {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.book p {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.book input {
+    width: 50%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.book input[type="submit"] {
+    font-size: 16px;
+    color: #fff;
+    background: #00a9b0;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.book input[type="submit"]:hover {
+    background: #008a94;
+}
+
+/* Table styles */
+table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+th {
+    background: #00a9b0;
+    color: #fff;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"][name="update"] {
+    padding: 5px 10px;
+    background: #008a94;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"][name="update"]:hover {
+    background: #00757b;
+}
